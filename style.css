@@ -169,3 +169,19 @@ small{
     margin: 12px 0;
     color: #777777;
 }
+.col-5 img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+
