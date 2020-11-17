@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ecommerce Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/norah.png" width="125px" height="125px" alt="">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px" alt="">
+            <img src="./logo/menu.png" width="30px" height="30px" class="menu-icon" alt="" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/shirt3.jpeg" alt="">
+                <h4>Cavaliers Shirt by Ocacia</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3454c</p>
+            </div>
+            <div class="col-4">
+                <img src="images/vint1.jpeg" alt="">
+                <h4>Lama Shirt by Yadah</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.0484c</p>
+            </div>
+            <div class="col-4">
+                <img src="images/shirt1.jpg" alt="">
+                <h4>Vintage Shirt by Dells</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3774c</p>
+            </div>
+            <div class="col-4">
+                <img src="images/shirt2.jpg" alt="">
+                <h4>Retro Shirt by Dave</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3454c</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/shirt3.jpeg" alt="">
+                    <h4>Cavaliers Shirt by Ocacia</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.3454c</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/vint1.jpeg" alt="">
+                    <h4>Lama Shirt by Yadah</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.0484c</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/shirt1.jpg" alt="">
+                    <h4>Vintage Shirt by Dells</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.3774c</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/shirt2.jpg" alt="">
+                    <h4>Retro Shirt by Dave</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.3454c</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/shirt3.jpeg" alt="">
+                        <h4>Cavaliers Shirt by Ocacia</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Rs.3454c</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/vint1.jpeg" alt="">
+                        <h4>Lama Shirt by Yadah</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Rs.0484c</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/shirt1.jpg" alt="">
+                        <h4>Vintage Shirt by Dells</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Rs.3774c</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/shirt2.jpg" alt="">
+                        <h4>Retro Shirt by Dave</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Rs.3454c</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/shirt3.jpeg" alt="">
+                            <h4>Cavaliers Shirt by Ocacia</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>Rs.3454c</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/vint1.jpeg" alt="">
+                            <h4>Lama Shirt by Yadah</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>Rs.0484c</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/shirt1.jpg" alt="">
+                            <h4>Vintage Shirt by Dells</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>Rs.3774c</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/shirt2.jpg" alt="">
+                            <h4>Retro Shirt by Dave</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>Rs.3454c</p>
+                        </div>
+                    </div>
+
+
+                    <div class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-col-1">
+                                    <h3>Download our App</h3>
+                                    <p>Download App for Android and ios mobile phone</p>
+                                    <div class="app-logo">
+                                        <img src="./logo/app.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="footer-col-2">
+                                    <img src="./images/norah.png" alt="">
+                                    <p>Is the Apple Watch 3 worth buying in 2020? It's not the latest and greatest,
+                                        but you get an amazing number of features and incredible pricing</p>
+                                </div>
+                                <div class="footer-col-3">
+                                    <h3>Useful Links</h3>
+                                    <ul>
+                                        <li>Coupons</li>
+                                        <li>Blog Post</li>
+                                        <li>Return Policy</li>
+                                        <li>Join Affiliate</li>
+                                    </ul>
+                                </div>
+                                <div class="footer-col-4">
+                                    <h3>Follow Us</h3>
+                                    <ul>
+                                        <li>Facebook</li>
+                                        <li>Twitter</li>
+                                        <li>Instagram</li>
+                                        <li>Youtube</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="copyright">Copyright &copy; 2020 - www.ThendoIO.co.za</p>
+                        </div>
+                    </div>
+
+                    <script src="./script.js"></script>
+
+</body>
+
+</html>
